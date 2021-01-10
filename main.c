@@ -67,11 +67,11 @@ void ustawienie_pustych_pol() {
 }
 
 void wyswietlenie_planszy_pomoc(){
-    printf("1  %c | %c | %c  ", plansza[0][0],plansza[0][1], plansza[0][2]);
+    printf("1    |   |     ");
     printf("\n  ---|---|---\n");
-    printf("2  %c | %c | %c  ", plansza[1][0],plansza[1][1], plansza[1][2]);
+    printf("2    |   |     ");
     printf("\n  ---|---|---\n");
-    printf("3  %c | %c | %c  \n", plansza[2][0],plansza[2][1], plansza[2][2]);
+    printf("3    |   |     \n");
     printf("   1   2   3  ");
     printf("\n\n\n");
 }
